@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003f66"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+
+            android:layout_marginBottom="20dp"
+            android:id="@+id/linear_container"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                android:background="@drawable/cardview_stroke"
+                android:drawableRight="@drawable/arrow2"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:text="Select Course Name"
+                android:textColor="#0070b5"
+                android:textStyle="normal" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/cardview_stroke"
+                android:drawableRight="@drawable/arrow2"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:text="Select Test Name"
+                android:textColor="#0070b5"
+                android:textStyle="normal" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/attempt_button"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/round_corner"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:text="Attempt Test"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/linear_container"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Total Time"
+                        android:textColor="#fff"
+
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text=":"
+                        android:textColor="#fff"
+
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="10:10"
+                        android:textColor="#ff6600"
+                        android:gravity="center"
+                        android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Attempted Count"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text=":"
+                        android:textColor="#fff"
+
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="10"
+                        android:textColor="#ff6600"
+
+                        android:gravity="center"
+                        android:padding="3dip" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Completion Count"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text=":"
+                        android:textColor="#fff"
+
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="10"
+                        android:textColor="#ff6600"
+
+                        android:gravity="center"
+                        android:padding="3dip" />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="No of Questions"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text=":"
+                        android:textColor="#fff"
+
+
+                        android:gravity="center"
+                        android:padding="3dip" />
+                    <TextView
+                        android:text="25"
+                        android:textColor="#ff6600"
+
+                        android:gravity="center"
+                        android:padding="3dip" />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corner"
+                android:drawableLeft="@drawable/ic_action_review"
+                android:padding="10dp"
+                android:id="@+id/review_button"
+                android:textAllCaps="false"
+                android:text="Review This Test"
+                android:textColor="#fff" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corner"
+                android:drawableLeft="@drawable/ic_action_certificate"
+                android:padding="10dp"
+                android:id="@+id/certificate_button"
+                android:textAllCaps="false"
+                android:text="Generate Certificate"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+

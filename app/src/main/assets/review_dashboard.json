@@ -1,0 +1,80 @@
+{
+  "B.TECH TEST 1": [
+    {
+      "Attempt": "1",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+    },
+    {
+      "Attempt": "2",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+    },
+    {
+      "Attempt": "3",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+    },
+    {
+      "Attempt": "4",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+    },
+    {
+      "Attempt": "5",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+    }
+
+  ],
+  "B.TECH TEST 2": [
+    {
+      "Attempt": "1",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+
+    }
+  ],
+  "B.TECH TEST 3": [
+    {
+      "Attempt": "1",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+
+    }
+  ],
+  "B.TECH TEST 4": [
+    {
+      "Attempt": "1",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+
+    }
+  ],
+  "B.TECH TEST 5": [
+    {
+      "Attempt": "1",
+      "Right": "11",
+      "Wrong": "14",
+      "Marks": "110",
+      "Completed": "YES"
+
+    }
+  ]
+}

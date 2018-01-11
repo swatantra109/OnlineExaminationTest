@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "name": "B.TECH"
+    },
+    {
+      "name": "M.PHILL"
+    },
+    {
+      "name": "BCA"
+    },
+    {
+      "name": "MCA"
+    },
+    {
+      "name": "M.TECH"
+    },
+    {
+      "name": "D.PHILL"
+    },
+    {
+      "name": "B.ED"
+    },
+    {
+      "name": "MA"
+    },
+    {
+      "name": "XYZ"
+    },
+    {
+      "name": "ABC"
+    }
+  ]
+}

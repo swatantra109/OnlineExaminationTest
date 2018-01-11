@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0070b5"
+    tools:context="com.xentaqsys.oet.EditProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <android.support.v7.widget.AppCompatImageButton
+                    android:id="@+id/button_previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentLeft="true"
+                    android:background="@null"
+                    app:srcCompat="@drawable/ic_backbutton" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Edit Profile"
+                    android:textColor="#fff" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/uploadpic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circle_shape"
+                app:srcCompat="@drawable/ic_uploadpic">
+
+            </android.support.v7.widget.AppCompatImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/et_userid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#fff"
+
+                    android:drawableRight="@drawable/ic_cross"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:text="swatantra.singh@xentaqsys.com"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#fff"
+                    android:drawableRight="@drawable/ic_update"
+                    android:layout_marginRight="10dp"
+
+                    android:text="Swatantra Singh"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+             <android.support.v7.widget.AppCompatEditText
+                 android:id="@+id/et_qualification"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:backgroundTint="#fff"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                 android:focusable="false"
+                 android:clickable="true"
+                 android:drawableRight="@drawable/ic_downarrow"
+                 android:hint="Qualification"
+                 android:textColorHint="#fff"
+                 android:textColor="#fff"
+                 android:textSize="15sp" />
+
+
+
+        <EditText
+            android:id="@+id/et_mobile_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#fff"
+            android:inputType="number"
+            android:drawableRight="@drawable/ic_edit"
+            android:hint="Mobile No."
+            android:maxLength="10"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_update_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="right"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/orange_hint_color"
+            android:text="UPDATE NOW"
+            android:textColor="#fff" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:icon="@drawable/ic_nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_edit_profile"
+
+            android:icon="@drawable/ic_nav_edit_profile"
+            android:title="Edit Profile" />
+
+        <item
+            android:id="@+id/item_save"
+            android:actionLayout="@layout/layout_action_item"
+            android:title=""/>
+    </group>
+
+    <item android:title="Security"
+
+        android:id="@+id/nav_security"
+        >
+        <menu>
+            <!--<View-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="#0070b5"-->
+            <!--/>-->
+            <item
+
+                android:id="@+id/nav_change_password"
+                android:icon="@drawable/ic_nav_changepassword"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

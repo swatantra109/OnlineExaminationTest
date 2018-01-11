@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0070b5"
+    android:orientation="horizontal"
+    android:weightSum="5"
+
+    >
+
+    <TextView
+        android:id="@+id/textViewAttempt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:lines="1"
+
+        android:background="@drawable/boder_recycleritem"
+        android:gravity="center"
+        android:text="Attempt"
+        android:textColor="#fff"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textviewRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/boder_recycleritem"
+
+        android:gravity="center"
+        android:text="Right"
+        android:lines="1"
+
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textviewWrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/boder_recycleritem"
+        android:gravity="center"
+        android:text="Wrong"
+        android:layout_gravity="center"
+        android:lines="1"
+
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textviewMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/boder_recycleritem"
+        android:gravity="center"
+        android:text="Marks"
+        android:layout_gravity="center"
+        android:lines="1"
+
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textviewCertificate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/boder_recycleritem"
+        android:gravity="center"
+        android:text="Download Certificate"
+        android:lines="1"
+
+        android:textColor="#fff" />
+
+
+</LinearLayout>
